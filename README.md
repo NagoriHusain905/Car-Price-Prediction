@@ -39,15 +39,15 @@ I used **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** to e
 ### Key Feature Influencers
 ### Feature Importance
 Used to identify important features.
-![Feature Importance](features.png)
+![Feature Importance](images/features.png)
 
 ### Correlation Heatmap
 Used to identify which features have the strongest relationship with the car's price.
-![Heatmap](heatmap.png)
+![Heatmap](images/heatmap.png)
 
 ### Actual vs. Predicted Prices
 This plot demonstrates the model's accuracy by comparing predicted values against real market prices.
-![Actual vs Predicted](act_vs_pred.png)
+![Actual vs Predicted](images/act_vs_pred.png)
 
 ## 💡 Key Insights
 - **Horsepower** and **Model Year** were the strongest predictors of a higher price.
