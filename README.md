@@ -33,15 +33,15 @@ I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to e
 ## 📈 Visualizations
 ### Key Feature Influencers
 ### Feature Importance
-![Feature Importance](Screenshot%20from%202026-04-21%2012-56-05.png)
+![Feature Importance](features.png)
 
 ### Correlation Heatmap
 Used to identify which features have the strongest relationship with the car's price.
-![Correlation Heatmap](Screenshot%20from%202026-04-21%2012-31-43.png)
+![Heatmap](heatmap.png)
 
 ### Actual vs. Predicted Prices
 This plot demonstrates the model's accuracy by comparing predicted values against real market prices.
-![Actual vs Predicted](Screenshot%20from%202026-04-21%2012-45-07.png)
+![Actual vs Predicted](act_vs_pred.png)
 
 ## 💡 Key Insights
 - **Horsepower** and **Model Year** were the strongest predictors of a higher price.
