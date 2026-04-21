@@ -25,10 +25,15 @@ The dataset contains 2,000 records of vehicle data, including:
 - **Algorithm:** Random Forest Regressor.
 - **Why Random Forest?** It handles non-linear relationships and outliers effectively by averaging the results of 100 individual decision trees.
 
-### 4. Evaluation Metrics
-I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to evaluate the model because they penalize large prediction errors more heavily than simple averages.
-- **MAE:** ()
-- **RMSE:** (Insert your result here)
+## 4. Evaluation Metrics
+I used **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** to evaluate the model's performance.
+
+* **Mean Absolute Error (MAE):** $2,108.73
+* **Root Mean Squared Error (RMSE):** $2,608.87
+
+### What do these numbers mean?
+- The **MAE** tells us that, on average, our car price predictions are off by about **$2,108**.
+- The **RMSE** is slightly higher at **$2,608**, which indicates that while most predictions are close, there are some larger errors that the model is being penalized for. Given that car prices in this dataset can reach high values, an error of ~$2,600 is a strong starting point for a baseline model.
 
 ## 📈 Visualizations
 ### Key Feature Influencers
