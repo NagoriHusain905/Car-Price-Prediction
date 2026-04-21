@@ -27,13 +27,13 @@ The dataset contains 2,000 records of vehicle data, including:
 
 ### 4. Evaluation Metrics
 I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to evaluate the model because they penalize large prediction errors more heavily than simple averages.
-- **MAE:** (Insert your result here)
+- **MAE:** ()
 - **RMSE:** (Insert your result here)
 
 ## 📈 Visualizations
 ### Key Feature Influencers
 ### Feature Importance
-Used to identify important features
+Used to identify important features.
 ![Feature Importance](features.png)
 
 ### Correlation Heatmap
