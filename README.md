@@ -31,6 +31,9 @@ I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to e
 - **RMSE:** (Insert your result here)
 
 ## 📈 Visualizations
+### Key Feature Influencers
+![Feature Importance](feature_importance.png)
+
 ### Correlation Heatmap
 Used to identify which features have the strongest relationship with the car's price.
 ![Correlation Heatmap](Screenshot%20from%202026-04-21%2012-31-43.png)
