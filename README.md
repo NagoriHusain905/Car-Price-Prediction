@@ -37,7 +37,7 @@ Used to identify which features have the strongest relationship with the car's p
 
 ### Actual vs. Predicted Prices
 This plot demonstrates the model's accuracy by comparing predicted values against real market prices.
-![Actual vs Predicted](link_to_your_saved_image_here)
+![Actual vs Predicted](link_to_your_saved_image_hereScreenshot from 2026-04-21 12-31-43.png)
 
 ## 💡 Key Insights
 - **Horsepower** and **Model Year** were the strongest predictors of a higher price.
