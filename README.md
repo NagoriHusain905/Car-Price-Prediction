@@ -33,7 +33,7 @@ I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to e
 ## 📈 Visualizations
 ### Correlation Heatmap
 Used to identify which features have the strongest relationship with the car's price.
-![Correlation Heatmap](link_to_your_saved_image_here)
+![Correlation Heatmap](Screenshot from 2026-04-21 12-31-43.png)
 
 ### Actual vs. Predicted Prices
 This plot demonstrates the model's accuracy by comparing predicted values against real market prices.
