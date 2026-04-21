@@ -33,6 +33,7 @@ I chose **Mean Squared Error (MSE)** and **Root Mean Squared Error (RMSE)** to e
 ## 📈 Visualizations
 ### Key Feature Influencers
 ### Feature Importance
+Used to identify important features
 ![Feature Importance](features.png)
 
 ### Correlation Heatmap
