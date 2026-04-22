@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # 1. Load the model and columns
-model = joblib.load('car_price_model.pkl')
-model_columns = joblib.load('model_columns.pkl')
+model = joblib.load('model/car_price_model.pkl')
+model_columns = joblib.load('model/model_columns.pkl')
 
 st.title("🚗 Used Car Price Predictor")
 st.write("Enter the car details below to estimate the market price.")
