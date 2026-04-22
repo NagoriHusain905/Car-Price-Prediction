@@ -1,10 +1,13 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle  # Change joblib to pickle
 
-# 1. Load the model and columns
-model = joblib.load('model/car_price_model.pkl')
-model_columns = joblib.load('model/model_columns.pkl')
+# 1. Load the model and columns using pickle
+with open('model/car_price_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+
+with open('model/model_columns.pkl', 'rb') as f:
+    model_columns = pickle.load(f)
 
 st.title("🚗 Used Car Price Predictor")
 st.write("Enter the car details below to estimate the market price.")
