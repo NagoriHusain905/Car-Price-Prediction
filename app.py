@@ -3,7 +3,7 @@ import pandas as pd
 import pickle  # Change joblib to pickle
 
 # 1. Load the model and columns using pickle
-with open('model/car_price_model.pkl', 'rb') as f:
+with open('model/car_price_model_v2.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open('model/model_columns.pkl', 'rb') as f:
